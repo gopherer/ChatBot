@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/antd.min.css">
+    <link rel="stylesheet" href="assets/css/display.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <style>
+        [v-cloak] {
+            display: none;
+        }
+    </style>
+    <title>登录</title>
+    <style>
+        #app {
+            padding-top: 100px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #fff;
+            margin: 20px 0 50px 0;
+        }
+
+        .ant-btn, .ant-input {
+            height: 50px;
+            border-radius: 30px;
+        }
+
+        .ant-input-affix-wrapper .ant-input-prefix {
+            left: 23px;
+        }
+
+        .ant-input-affix-wrapper .ant-input:not(:first-child) {
+            padding-left: 50px;
+        }
+
+    </style>
+</head>
+
+<body>
+<section class="ant-layout" id="app"
+         style="background: linear-gradient(220deg, rgb(0, 255, 0) 0%, rgb(0, 0, 255) 100%);">
+    <main class="ant-layout-content">
+        <div class="ant-row-flex ant-row-flex-center">
+            <div class="ant-col ant-col-xs-22 ant-col-sm-20 ant-col-md-16 ant-col-lg-12 ant-col-xl-8"><h1>登录</h1></div>
+        </div>
+        <div class="ant-row-flex ant-row-flex-center">
+            <div class="ant-col ant-col-xs-22 ant-col-sm-20 ant-col-md-16 ant-col-lg-12 ant-col-xl-8">
+                <form class="ant-form ant-form-horizontal">
+                    <div class="ant-row ant-form-item">
+                        <div class="ant-col ant-form-item-control-wrapper">
+                            <div class="ant-form-item-control"><span class="ant-form-item-children"><span
+                                    class="ant-input-affix-wrapper"><span class="ant-input-prefix"><i
+                                    aria-label="icon: user" class="anticon anticon-user"
+                                    style="color: rgba(0, 0, 0, 0.25);"><svg viewBox="64 64 896 896" data-icon="user"
+                                                                             width="1em" height="1em"
+                                                                             fill="currentColor" aria-hidden="true"
+                                                                             focusable="false" class=""><path
+                                    d="M858.5 763.6a374 374 0 0 0-80.6-119.5 375.63 375.63 0 0 0-119.5-80.6c-.4-.2-.8-.3-1.2-.5C719.5 518 760 444.7 760 362c0-137-111-248-248-248S264 225 264 362c0 82.7 40.5 156 102.8 201.1-.4.2-.8.3-1.2.5-44.8 18.9-85.5 44.6-119.5 80.6a373.9 373.9 0 0 0-80.6 119.5C42.6 774.1 0 826.8 0 889c0 6.7 5.3 12 12 12h880c6.7 0 12-5.3 12-12 0-62.2-42.6-114.9-105.5-125.4z m-280-373.6c0-110.3 89.7-200 200-200s200 89.7 200 200-89.7 200-200 200-200-89.7-200-200z"></path></svg></i></span><input
+                                    id="username" placeholder="用户名" type="text" autofocus="autofocus"
+                                    class="ant-input"></span></span></div>
+                        </div>
+                    </div>
+                    <div class="ant-row ant-form-item">
+                        <div class="ant-col ant-form-item-control-wrapper">
+                            <div class="ant-form-item-control"><span class="ant-form-item-children"><span
+                                    class="ant-input-affix-wrapper"><span class="ant-input-prefix"><i
+                                    aria-label="icon: lock" class="anticon anticon-lock"
+                                    style="color: rgba(0, 0, 0, 0.25);"><svg viewBox="64 64 896 896" data-icon="lock"
+                                                                             width="1em" height="1em"
+                                                                             fill="currentColor" aria-hidden="true"
+                                                                             focusable="false" class=""><path
+                                    d="M724 312h-75V230c0-55.2-44.8-100-100-100h-150c-55.2 0-100 44.8-100 100v82h-75c-5.1 0-10 2-13.7 5.7l-39.6 39.6a19.91 19.91 0 0 0-5.7 13.8v512c0 5.1 2 10 5.7 13.7l39.6 39.6a19.91 19.91 0 0 0 13.8 5.7h546c5.1 0 10-2 13.7-5.7l39.6-39.6a19.91 19.91 0 0 0 5.7-13.8V370.4c0-5.1-2-10-5.7-13.7l-39.6-39.6a19.91 19.91 0 0 0-13.8-5.7zM512 474c-36.5 0-66 29.5-66 66v48c0 3.9 3.1 7 7 7h118c3.9 0 7-3.1 7-7v-48c0-36.5-29.5-66-66-66z m62-144H450V230c0-9.9 8.1-18 18-18h108c9.9 0 18 8.1 18 18v100z"></path></svg></i></span><input
+                                    id="password" placeholder="密码" type="password"
+                                    class="ant-input"></span></span></div>
+                        </div>
+                    </div>
+                    <div class="ant-row ant-form-item">
+                        <div class="ant-col ant-form-item-control-wrapper">
+                            <div class="ant-form-item-control"><span class="ant-form-item-children"><span
+                                    class="ant-input-affix-wrapper"><span class="ant-input-prefix"><i
+                                    aria-label="icon: lock" class="anticon anticon-lock"
+                                    style="color: rgba(0, 0, 0, 0.25);"><svg viewBox="64 64 896 896" data-icon="lock"
+                                                                             width="1em" height="1em"
+                                                                             fill="currentColor" aria-hidden="true"
+                                                                             focusable="false" class=""><path
+                                    d="M724 312h-75V230c0-55.2-44.8-100-100-100h-150c-55.2 0-100 44.8-100 100v82h-75c-5.1 0-10 2-13.7 5.7l-39.6 39.6a19.91 19.91 0 0 0-5.7 13.8v512c0 5.1 2 10 5.7 13.7l39.6 39.6a19.91 19.91 0 0 0 13.8 5.7h546c5.1 0 10-2 13.7-5.7l39.6-39.6a19.91 19.91 0 0 0 5.7-13.8V370.4c0-5.1-2-10-5.7-13.7l-39.6-39.6a19.91 19.91 0 0 0-13.8-5.7zM512 474c-36.5 0-66 29.5-66 66v48c0 3.9 3.1 7 7 7h118c3.9 0 7-3.1 7-7v-48c0-36.5-29.5-66-66-66z m62-144H450V230c0-9.9 8.1-18 18-18h108c9.9 0 18 8.1 18 18v100z"></path></svg></i></span><input
+                                    id="mode" placeholder="选填-默认模式GPT-3.5" type="text"
+                                    class="ant-input"></span></span></div>
+                        </div>
+                    </div>
+                    <div class="ant-row ant-form-item">
+                        <div class="ant-col ant-form-item-control-wrapper" style="display: flex; justify-content: center;">
+                            <div class="ant-form-item-control">
+                                <button id="login-button" class="ant-btn ant-btn-primary ant-btn-lg" type="submit">登录</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+</section>
+
+<script src="assets/js/index.js"></script>
+</body>
+
+</html>
